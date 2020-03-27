@@ -21,7 +21,7 @@ router.get('/projects/:id', (req, res, next) => {
     if (projectTemplate.project) {
         res.render('project', projectTemplate);
     } else {
-        const error = new Error('The page you were looking for does not exist');
+        const error = new Error('The page you were looking for does not exist yet!');
         error.status = 404;
         console.log(error.message, error.status)
         next(error);
