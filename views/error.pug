@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+    nav.grid-container.portfolio-breadcrumb
+      a(href='/') ← Back
+
+    #error
+      h3  Error:
+      h1 #{error.message}
+
+      img(src='https://media.giphy.com/media/3orieUe6ejxSFxYCXe/giphy.gif' class='errorImage' alt='error image' style='width:300px; height:300px;')
+
+      h2 Status:
+      p #{error.status}
+
+      h2 Stacktrace:
+      p #{error.stack}

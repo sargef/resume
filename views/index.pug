@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      h1 Professional Portfolio
+
+      p.lead.text-light
+        | Demonstration of personal projects and full list of dedicated skills
+
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      each project, data in projects
+        .cell
+          a(href=`/projects/${data}`)
+            img.thumbnail(src=`/static/${project.image_urls_small[0]}`)
+            h5= `${project.project_name}`
+          
+      

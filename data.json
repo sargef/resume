@@ -1,0 +1,94 @@
+{
+  "projects": [
+{
+    "id": 0,
+    "project_name": "Random Time Quote Generator",
+    "description": "Generates a random quote on a timer or by clicking generate",
+    "technologies": ["JavaScript", "Html", "Css"],
+    "live_link": "https://randomtimequotegenerator.sarahshelley.x10host.com/",
+    "github_link": "https://github.com/sargef/Random-Time-Quote-Generator",
+    "image_urls_small": [
+        "/images/Assign1Square.JPG"
+        ],
+        "image_urls_large": [
+        "/images/Assign1Rec.JPG"
+        ]
+    },
+{
+    "id": 1,
+    "project_name": "List Pagination",
+    "description": "Displays a list of students, 10 per page, includes a search function to search Students by name",
+    "technologies": ["JavaScript", "Html", "Css"],
+    "live_link": "https://listpagination.sarahshelley.x10host.com/",
+    "github_link": "https://github.com/sargef/list-pagination",
+    "image_urls_small": [
+        "/images/Assign2Square.JPG"
+         ],
+    "image_urls_large": [
+        "/images/Assign2Rec.JPG"
+        ]
+    },
+{
+    "id": 2,
+    "project_name": "Form Submission",
+    "description": "Conference registration form that requires certain details to be entered in order to submit, greets with a success page",
+    "technologies": ["JavaScript", "Html", "Css"],
+    "live_link": "http://www.submissionform.sarahshelley.x10host.com/",
+    "github_link": "https://github.com/sargef/form-submission",
+    "image_urls_small": [
+        "/images/Assign3Square.JPG"
+        ],
+    "image_urls_large": [
+        "/images/Assign3Rec1.JPG",
+        "/images/Assign3Rec2.JPG"
+        ]
+    },
+{
+    "id": 3,
+    "project_name": "Phrase Hunter Guess Game",
+    "description": "A OO Guessing game that displays letters entered if correct on game screen either using your keyboard or onscreen keyboard keys",
+    "technologies": ["JavaScript", "Html", "Css"],
+    "live_link": "http://www.lifegame.sarahshelley.x10host.com/",
+    "github_link": "https://github.com/sargef/guess-game-oo",
+    "image_urls_small": [
+        "/images/Assign4Square.JPG"
+        ],
+    "image_urls_large": [
+        "/images/Assign4Rec.JPG"
+            ]
+        },
+    {
+    "id": 4,
+    "project_name": "Employee Random Generator API",
+    "description": "An Employee list that random generates a list of 12 employees using an API. Also features a search function to find employees by name search",
+    "technologies": ["JavaScript", "Html", "Css", "API"],
+    "live_link": "http://www.employeeapi.sarahshelley.x10host.com/",
+    "github_link": "https://github.com/sargef/Employee-API",
+    "image_urls_small": [
+        "/images/Assign5Square.JPG"
+        ],
+    "image_urls_large": [
+        "/images/Assign5Rec1.JPG",
+        "/images/Assign5Rec2.JPG"
+            ]
+        },
+    {
+    "id": 5,
+    "project_name": "Lucky Door Generator",
+    "description": "Animated Lucky Door Generator with 6 different adventures to choose from. Featuring a flying simulation behind each door. Inspired by a previously built Flying simulation Alexa skill that i published to all English speaking countries in 2019",
+    "technologies": ["JavaScript", "Html", "Css"],
+    "live_link": "https://luckydoor.sarahshelley.x10host.com/index.html",
+    "github_link": "https://sarahshelley.x10host.com/gallery.html",
+    "image_urls_small": [
+        "/images/luckyDoorSquare.png"
+        ],
+    "image_urls_large": [
+        "/images/luckyDoorRec1.JPG",
+        "/images/luckDoorRec2.JPG",
+        "/images/luckyDoor3.JPG",
+        "/images/luckyDoor5.JPG",
+        "/images/luckyDoor4.JPG"
+            ]
+        }
+    ]
+}
