@@ -1,4 +1,5 @@
 // Required packages for project
+const http = require('http');
 const express = require('express');
 const bodyParser = require('body-parser');
 const data = require('./data.json');
@@ -42,5 +43,17 @@ if (app.get('env') === 'development') {
   });
 
 module.exports = app;
+
+const port = process.env.PORT || 3000
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/html');
+  res.end('<h1>Hello World</h1>');
+});
+
+server.listen(port,() => {
+  console.log(`Server running at port `+port);
+});
 
 
