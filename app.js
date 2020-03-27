@@ -23,6 +23,22 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Imports page route objects
 app.use('/', indexRouter);
 
+// Project pages route & if statement to catch 404 error
+router.get('/projects/:id', (req, res, next) => {
+    const { id } = req.params;
+    const projectTemplate = { 
+        project: data.projects[id]
+    }
+    if (projectTemplate.project) {
+        res.render('project', projectTemplate);
+    } else {
+        const error = new Error('The page you were looking for does not exist');
+        error.status = 404;
+        console.log(error.message, error.status)
+        next(error);
+    }   
+})
+
 // Development Error handler
 if (app.get('env') === 'development') {
     app.use((err, req, res, next) => {
