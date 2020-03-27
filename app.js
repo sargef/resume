@@ -32,7 +32,7 @@ if (app.get('env') === 'development') {
         error: err
       });
     });
-  }
+  } else {
   
 //Production Error handler
   app.use((err, req, res, next) => {
@@ -42,6 +42,7 @@ if (app.get('env') === 'development') {
       error: {}
     });
   });
+ }
 
 module.exports = app;
 
