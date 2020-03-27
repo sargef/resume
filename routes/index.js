@@ -28,7 +28,7 @@ router.get('/projects/:id', (req, res, next) => {
     }   
 })
 
-// Print error page
+// If 404 error page not found. Print error messages to page
 router.use(function(err, req, res, next) {
   if (res.headersSent) {
     return next(err);
