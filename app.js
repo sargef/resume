@@ -23,17 +23,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Imports page route objects
 app.use('/', indexRouter);
 
-// Print error page
-app.use(function(err, req, res, next) {
-  if (res.headersSent) {
-    return next(err);
-  }
-  res.locals.error = err;
-  err.status = 404;
-  res.status(err.status);
-  res.render('error');
-});
-
 module.exports = app;
 
  // Setting port to listen on port 8080
