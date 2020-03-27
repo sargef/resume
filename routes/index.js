@@ -28,4 +28,15 @@ router.get('/projects/:id', (req, res, next) => {
     }   
 })
 
+// Print error page
+router.use(function(err, req, res, next) {
+  if (res.headersSent) {
+    return next(err);
+  }
+  res.locals.error = err;
+  err.status = 404;
+  res.status(err.status);
+  res.render('error');
+});
+
 module.exports = router;
