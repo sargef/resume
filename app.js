@@ -34,27 +34,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-// Development Error handler
-if (app.get('env') === 'development') {
-    app.use((err, req, res, next) => {
-      res.status(err.status || 500);
-      res.render('error', {
-        message: err.message, 
-        error: err
-      });
-    });
-  }
-  
-//Production Error handler
-  app.use((err, req, res, next) => {
-    res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: {}
-    });
-  });
-
-
 module.exports = app;
 
  // Setting port to listen on port 8080
