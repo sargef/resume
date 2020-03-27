@@ -1,11 +1,12 @@
 // Required packages for project
-const http = require('http');
 const express = require('express');
 const bodyParser = require('body-parser');
 const data = require('./data.json');
 const pug = require('pug');
 const path = require('path');
 const app = express();
+
+var port = process.env.PORT || 8080;
 
 var indexRouter = require('./routes/index');
 
@@ -44,18 +45,7 @@ if (app.get('env') === 'development') {
 
 module.exports = app;
 
-const port = process.env.PORT || 3000
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.end();
+ // Setting port to listen on port 3000
+ app.listen(port, function() {
+    console.log('Your app is listening on port:' + port);
 });
-
-server.listen(port,() => {
-  console.log(`Server running at port `+port);
-});
-
-
-
-
