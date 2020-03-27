@@ -45,7 +45,7 @@ if (app.get('env') === 'development') {
 
 module.exports = app;
 
- // Setting port to listen on port 3000
+ // Setting port to listen on port 8080
  app.listen(port, function() {
     console.log('Your app is listening on port:' + port);
 });
