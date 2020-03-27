@@ -37,6 +37,7 @@ router.use(function(err, req, res, next) {
   err.status = 404;
   res.status(err.status);
   res.render('error');
+  console.log(error.message, error.status)
 });
 
 module.exports = router;
