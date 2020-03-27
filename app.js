@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 
 // Project pages route & if statement to catch 404 error
-router.get('/projects/:id', (req, res, next) => {
+app.get('/projects/:id', (req, res, next) => {
     const { id } = req.params;
     const projectTemplate = { 
         project: data.projects[id]
