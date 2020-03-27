@@ -33,7 +33,9 @@ router.use(function(err, req, res, next) {
   if (res.headersSent) {
     return next(err);
   }
-
+  res.locals.error = err;
+  err.status = 404;
+  res.status(err.status);
   res.render('error');
 });
 
