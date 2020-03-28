@@ -52,10 +52,10 @@ My Personal Resume features the following criteria;
 14. Final project's layout and positioning does match the example HTML or mockup files.
 15. Project has at least three of the following items customized:
       + color.
-      + background color.
-      + font.
-      + box or text shadows.
-      + transitions or animations.
+      + background color = Background picture added.
+      + font = Font colors changed to suit background picture colors.
+      + box or text shadows = box shadows added to project display.
+      + transitions or animations = Animated gif added to error page.
       
 16. Changes detailed in the README.md file and the submission notes.
 
