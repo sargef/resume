@@ -27,6 +27,9 @@ app.use('/', indexRouter);
 app.use((req, res, next) => {
   const err = new Error('There is no such page, sorry!');
   err.status = 404;
+  res.render('error', {
+    message: err.message,
+    error: err
   next(err);
 });
 
