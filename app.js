@@ -1,6 +1,5 @@
 // Required packages for project
 const express = require('express');
-const httpStatus = require('http-status-codes');
 const bodyParser = require('body-parser');
 const data = require('./data.json');
 const pug = require('pug');
