@@ -12,7 +12,7 @@ router.get('/about', (req, res, next) => {
     res.render('about');
  });
 
-// Project pages route & if statement to catch 404 error
+// Project pages route & if statement to catch 404 error, no project found
 router.get('/projects/:id', (req, res, next) => {
     const { id } = req.params;
     const projectTemplate = { 
