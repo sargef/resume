@@ -6,7 +6,7 @@
     "description": "Generates a an api based image gallery by request via search term",
     "technologies": ["JavaScript", "Html", "Css", "React", "Api"],
     "live_link": "https://reactapiimagesearch.netlify.app/waterfalls",
-    "github_link": "https://github.com/sargef/react-app-api-image-search",
+    "github_link": "https://github.com/sargef/react-app-api-image-search"
     "image_urls_small": [
         "/images/weathersquare.png"
         ],
@@ -22,7 +22,7 @@
     "description": "Creates a database of library books utilising a RestAPI database",
     "technologies": ["JavaScript", "Html", "Css", "React", "RestAPI"],
     "live_link": "https://library-manager-3838.herokuapp.com/books",
-    "github_link": "https://github.com/sargef/library-manager",
+    "github_link": "https://github.com/sargef/library-manager"
     "image_urls_small": [
         "/images/librarysquare.png"
         ],
@@ -38,7 +38,7 @@
     "description": "Generates courses utilising a database RestApi, featuring authentication validation and input validation",
     "technologies": ["JavaScript", "Html", "Css", "React", "RestAPI", "encryption", "session cookies"],
     "live_link": "https://course-restapi-38.herokuapp.com/",
-    "github_link": "https://github.com/sargef/course-restapi-nodejs-backend-react-frontend",
+    "github_link": "https://github.com/sargef/course-restapi-nodejs-backend-react-frontend"
     "image_urls_small": [
         "/images/coursessquare.png
         ],
@@ -54,7 +54,7 @@
     "description": "Generates a random quote on a timer or by clicking generate",
     "technologies": ["JavaScript", "Html", "Css"],
     "live_link": "https://randomtimequotegenerator.sarahshelley.x10host.com/",
-    "github_link": "https://github.com/sargef/Random-Time-Quote-Generator",
+    "github_link": "https://github.com/sargef/Random-Time-Quote-Generator"
     "image_urls_small": [
         "/images/Assign1Square.JPG"
         ],
@@ -68,7 +68,7 @@
     "description": "Displays a list of students, 10 per page, includes a search function to search Students by name",
     "technologies": ["JavaScript", "Html", "Css"],
     "live_link": "https://listpagination.sarahshelley.x10host.com/",
-    "github_link": "https://github.com/sargef/list-pagination",
+    "github_link": "https://github.com/sargef/list-pagination"
     "image_urls_small": [
         "/images/Assign2Square.JPG"
          ],
@@ -82,7 +82,7 @@
     "description": "Conference registration form that requires certain details to be entered in order to submit, greets with a success page",
     "technologies": ["JavaScript", "Html", "Css"],
     "live_link": "http://www.submissionform.sarahshelley.x10host.com/",
-    "github_link": "https://github.com/sargef/form-submission",
+    "github_link": "https://github.com/sargef/form-submission"
     "image_urls_small": [
         "/images/Assign3Square.JPG"
         ],
@@ -97,7 +97,7 @@
     "description": "A OO Guessing game that displays letters entered if correct on game screen either using your keyboard or onscreen keyboard keys",
     "technologies": ["JavaScript", "Html", "Css"],
     "live_link": "http://www.lifegame.sarahshelley.x10host.com/",
-    "github_link": "https://github.com/sargef/guess-game-oo",
+    "github_link": "https://github.com/sargef/guess-game-oo"
     "image_urls_small": [
         "/images/Assign4Square.JPG"
         ],
@@ -111,7 +111,7 @@
     "description": "An Employee list that random generates a list of 12 employees using an API. Also features a search function to find employees by name search",
     "technologies": ["JavaScript", "Html", "Css", "API"],
     "live_link": "http://www.employeeapi.sarahshelley.x10host.com/",
-    "github_link": "https://github.com/sargef/Employee-API",
+    "github_link": "https://github.com/sargef/Employee-API"
     "image_urls_small": [
         "/images/Assign5Square.JPG"
         ],
@@ -126,7 +126,7 @@
     "description": "Animated Lucky Door Generator with 6 different adventures to choose from. Featuring a flying simulation behind each door. Inspired by a previously built Flying simulation Alexa skill that i published to all English speaking countries in 2019",
     "technologies": ["JavaScript", "Html", "Css"],
     "live_link": "https://luckydoor.sarahshelley.x10host.com/index.html",
-    "github_link": "https://sarahshelley.x10host.com/gallery.html",
+    "github_link": "https://sarahshelley.x10host.com/gallery.html"
     "image_urls_small": [
         "/images/luckyDoorSquare.png"
         ],
