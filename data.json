@@ -43,7 +43,7 @@
         "/images/coursessquare.png"
         ],
         "image_urls_large": [
-        "/images/coursesmain.png",
+        "/images/coursemain.png",
         "/images/coursesview.png",
         "/images/coursessignup.png"
         ]
@@ -91,22 +91,8 @@
         "/images/Assign3Rec2.JPG"
         ]
     },
-{
+ {
     "id": 6,
-    "project_name": "Phrase Hunter Guess Game",
-    "description": "A OO Guessing game that displays letters entered if correct on game screen either using your keyboard or onscreen keyboard keys",
-    "technologies": ["JavaScript", "Html", "Css"],
-    "live_link": "http://www.lifegame.sarahshelley.x10host.com/",
-    "github_link": "https://github.com/sargef/guess-game-oo",
-    "image_urls_small": [
-        "/images/Assign4Square.JPG"
-        ],
-    "image_urls_large": [
-        "/images/Assign4Rec.JPG"
-            ]
-        },
-    {
-    "id": 7,
     "project_name": "Employee Random Generator API",
     "description": "An Employee list that random generates a list of 12 employees using an API. Also features a search function to find employees by name search",
     "technologies": ["JavaScript", "Html", "Css", "API"],
@@ -118,6 +104,20 @@
     "image_urls_large": [
         "/images/Assign5Rec1.JPG",
         "/images/Assign5Rec2.JPG"
+            ]
+        },
+    {
+    "id": 7,
+    "project_name": "Phrase Hunter Guess Game",
+    "description": "A OO Guessing game that displays letters entered if correct on game screen either using your keyboard or onscreen keyboard keys",
+    "technologies": ["JavaScript", "Html", "Css"],
+    "live_link": "http://www.lifegame.sarahshelley.x10host.com/",
+    "github_link": "https://github.com/sargef/guess-game-oo",
+    "image_urls_small": [
+        "/images/Assign4Square.JPG"
+        ],
+    "image_urls_large": [
+        "/images/Assign4Rec.JPG"
             ]
         },
     {
