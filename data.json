@@ -1,23 +1,7 @@
 {
   "projects": [
-{
-    "id": 0,
-    "project_name": "API React Gallery Image Search",
-    "description": "Generates a an api based image gallery by request via search term",
-    "technologies": ["JavaScript", "Html", "Css", "React", "Api"],
-    "live_link": "https://reactapiimagesearch.netlify.app/waterfalls",
-    "github_link": "https://github.com/sargef/react-app-api-image-search",
-    "image_urls_small": [
-        "/images/weathersquare.png"
-        ],
-        "image_urls_large": [
-        "/images/weather.png",
-        "/images/landscape.png",
-        "/images/sunsets.png"
-        ]
-    },
     {
-    "id": 1,
+    "id": 0,
     "project_name": "Libary Database",
     "description": "Creates a database of library books utilising a RestAPI database",
     "technologies": ["JavaScript", "Html", "Css", "React", "RestAPI"],
@@ -30,6 +14,22 @@
         "/images/libraryrec.png",
         "/images/libraryupdate.png",
         "/images/libraryaddbook.png"
+        ]
+    },
+    {
+    "id": 1,
+    "project_name": "API React Gallery Image Search",
+    "description": "Generates a an api based image gallery by request via search term",
+    "technologies": ["JavaScript", "Html", "Css", "React", "Api"],
+    "live_link": "https://reactapiimagesearch.netlify.app/waterfalls",
+    "github_link": "https://github.com/sargef/react-app-api-image-search",
+    "image_urls_small": [
+        "/images/weathersquare.png"
+        ],
+        "image_urls_large": [
+        "/images/weather.png",
+        "/images/landscape.png",
+        "/images/sunsets.png"
         ]
     },
     {
