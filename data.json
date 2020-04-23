@@ -2,6 +2,54 @@
   "projects": [
 {
     "id": 0,
+    "project_name": "API React Gallery Image Search",
+    "description": "Generates a an api based image gallery by request via search term",
+    "technologies": ["JavaScript", "Html", "Css", "React", "Api"],
+    "live_link": "https://reactapiimagesearch.netlify.app/waterfalls",
+    "github_link": "https://github.com/sargef/react-app-api-image-search",
+    "image_urls_small": [
+        "/images/weathersquare.png"
+        ],
+        "image_urls_large": [
+        "/images/weather.png",
+        "/images/landscape.png",
+        "/images/sunsets.png
+        ]
+    },
+    {
+    "id": 1,
+    "project_name": "Libary Database",
+    "description": "Creates a database of library books utilising a RestAPI database",
+    "technologies": ["JavaScript", "Html", "Css", "React", "RestAPI"],
+    "live_link": "https://library-manager-3838.herokuapp.com/books",
+    "github_link": "https://github.com/sargef/library-manager",
+    "image_urls_small": [
+        "/images/librarysquare.png"
+        ],
+        "image_urls_large": [
+        "/images/libraryrec.png",
+        "/images/libraryupdate.png",
+        "/images/libraryaddbook.png
+        ]
+    },
+    {
+    "id": 2,
+    "project_name": "Courses Database",
+    "description": "Generates courses utilising a database RestApi, featuring authentication validation and input validation",
+    "technologies": ["JavaScript", "Html", "Css", "React", "RestAPI", "encryption", "session cookies"],
+    "live_link": "https://course-restapi-38.herokuapp.com/",
+    "github_link": "https://github.com/sargef/course-restapi-nodejs-backend-react-frontend",
+    "image_urls_small": [
+        "/images/coursessquare.png
+        ],
+        "image_urls_large": [
+        "/images/coursesmain.png",
+        "/images/coursesview.png",
+        "/images/coursessignup.png"
+        ]
+    },
+{
+    "id": 3,
     "project_name": "Random Time Quote Generator",
     "description": "Generates a random quote on a timer or by clicking generate",
     "technologies": ["JavaScript", "Html", "Css"],
@@ -15,7 +63,7 @@
         ]
     },
 {
-    "id": 1,
+    "id": 4,
     "project_name": "List Pagination",
     "description": "Displays a list of students, 10 per page, includes a search function to search Students by name",
     "technologies": ["JavaScript", "Html", "Css"],
@@ -29,7 +77,7 @@
         ]
     },
 {
-    "id": 2,
+    "id": 5,
     "project_name": "Form Submission",
     "description": "Conference registration form that requires certain details to be entered in order to submit, greets with a success page",
     "technologies": ["JavaScript", "Html", "Css"],
@@ -44,7 +92,7 @@
         ]
     },
 {
-    "id": 3,
+    "id": 6,
     "project_name": "Phrase Hunter Guess Game",
     "description": "A OO Guessing game that displays letters entered if correct on game screen either using your keyboard or onscreen keyboard keys",
     "technologies": ["JavaScript", "Html", "Css"],
@@ -58,7 +106,7 @@
             ]
         },
     {
-    "id": 4,
+    "id": 7,
     "project_name": "Employee Random Generator API",
     "description": "An Employee list that random generates a list of 12 employees using an API. Also features a search function to find employees by name search",
     "technologies": ["JavaScript", "Html", "Css", "API"],
@@ -73,7 +121,7 @@
             ]
         },
     {
-    "id": 5,
+    "id": 8,
     "project_name": "Lucky Door Generator",
     "description": "Animated Lucky Door Generator with 6 different adventures to choose from. Featuring a flying simulation behind each door. Inspired by a previously built Flying simulation Alexa skill that i published to all English speaking countries in 2019",
     "technologies": ["JavaScript", "Html", "Css"],
